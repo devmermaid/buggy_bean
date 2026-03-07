@@ -3,7 +3,7 @@ package Basic.numbers;
 public class reverse
 {
     static void main() {
-        int number=121;
+        int number=123;
         int org=number;// this process is necessary bcz we will destroy the num in next loop so num value become 0 after using it in loop
         int reverse=0;
         while(number!=0)
