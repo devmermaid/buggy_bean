@@ -1,5 +1,7 @@
 package Basic.arrays;
 
+import java.util.Arrays;
+
 public class ten
 {
     static void main() {
@@ -11,5 +13,10 @@ public class ten
         }
         //array copying: giving same value to both array
         //it will assign to same memory location and value same for both arrays
+        //below is array sorting
+        System.out.println("Before sorting: "+ Arrays.toString(array));
+        Arrays.sort(array);//here in back end quick sort has been used for sort method
+        System.out.println("After sorting: "+ Arrays.toString(array));
+
     }
 }
