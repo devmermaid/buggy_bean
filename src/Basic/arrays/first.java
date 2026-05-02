@@ -7,9 +7,7 @@ public class first
         int[] array={1,2,3,4};
         for(int i=0;i< array.length;i++)
         {
-            int result;
-            result=array[i];
-            System.out.println(result);
+            System.out.println(array[i]);
         }
     }
 }
