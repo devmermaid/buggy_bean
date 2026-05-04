@@ -11,4 +11,5 @@ public class Student1
     static void main() {
         System.out.println(Student1.display());
     }
+    //this can be called as factory method as well, as it is running without new and any object
 }
