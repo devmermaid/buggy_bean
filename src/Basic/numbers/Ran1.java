@@ -9,7 +9,7 @@ public class Ran1
     static void main() {
         //first way: using math.random()
         double randomNumber=Math.random();
-        int random=(int)(Math.random()*100)+1;
+        int random=(int)(Math.random()*100)+1; // here is number will get generated in 1 to 100
         System.out.println(random);
 
         //second way: using built it Random class and its object
