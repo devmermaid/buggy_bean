@@ -6,6 +6,7 @@ import java.util.Random;
 
 public class Ran1
 {
+    //printing random numbers in java
     static void main() {
         //first way: using math.random()
         double randomNumber=Math.random();
