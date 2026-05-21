@@ -1,5 +1,8 @@
 package CollectionFramework;
 
+//Scenario: You are building a checkout system for an online shopping app.
+// The user has added several items to their cart, represented as an ArrayList of item prices.
+// If the total bill exceeds $100, the user gets a flat $10 discount.
 import java.util.*;
 
 public class ArrayList1
