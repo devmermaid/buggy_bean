@@ -46,6 +46,7 @@ public class ArrayList2
         {
             System.out.println(songs);
         }
+        //printing current song
         System.out.println("Current playing song: "+ targetSong);
     }
 }
