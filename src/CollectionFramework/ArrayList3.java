@@ -1,11 +1,8 @@
 package CollectionFramework;
 
 import java.util.*;
-import java.util.ArrayList;
-import java.util.Scanner;
 
 public class ArrayList3 {
-
     public static boolean canBookConsecutiveForEach(ArrayList<Integer> seats, int k) {
         int emptyCount = 0; // Tracks our current consecutive empty seat "streak" [cite: 11]
 
@@ -27,7 +24,10 @@ public class ArrayList3 {
 
     // Main method to test both approaches
     public static void main(String[] args) {
-        int k = 3; // Number of friends looking for seats [cite: 4, 18]
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter no of friends: ");
+        int k=sc.nextInt();
+        // Number of friends looking for seats [cite: 4, 18]
 
         // Test Case 1: Successful Booking (3 consecutive empty seats exist)
         ArrayList<Integer> row1 = new ArrayList<>(Arrays.asList(1, 0, 0, 0, 1)); // [cite: 18]
