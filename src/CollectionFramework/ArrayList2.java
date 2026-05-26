@@ -43,10 +43,6 @@ public class ArrayList2
 
         //printing playlist now
         for(String songs:playlist)
-        {
-            System.out.println(songs);
-        }
-        //printing current song
         System.out.println("Current playing song: "+ targetSong);
     }
 }
