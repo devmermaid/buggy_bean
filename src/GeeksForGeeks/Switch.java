@@ -42,7 +42,7 @@ public class Switch
                 double b=arr.get(0);
 
                 double areaR=l*b;
-                System.out.println("Area of REct: "+areaR);
+                System.out.println("Area of React: "+areaR);
                 break;
         }
     }
