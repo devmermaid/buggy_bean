@@ -8,7 +8,8 @@ import java.util.Scanner;
 //If the user's choice is 1, calculate the area of the circle having the given radius(R).
 //Else if the choice is 2, calculate the area of the rectangle with the given length(L) and breadth(B).
 
-//Note : A list arr[], containing the single value R or the two values L and B, as input parameters. Return the area of the desired geometrical figure. Use Math.PI for the value of pi.
+//Note : A list arr[], containing the single value R or the two values L and B, as input parameters. Return the area of the desired geometrical figure.
+// Use Math.PI for the value of pi.
 
 public class Switch
 {
