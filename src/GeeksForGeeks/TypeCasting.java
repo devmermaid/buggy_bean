@@ -14,3 +14,5 @@ public class TypeCasting
         System.out.println(n);
     }
 }
+
+
