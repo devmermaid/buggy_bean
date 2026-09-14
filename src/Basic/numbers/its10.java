@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class its10
 {
     static void main() {
+
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter character: ");
         char ch=sc.next().charAt(0);// we are reading character as a string in have with int() so we will insert character in this string with index value ahead
